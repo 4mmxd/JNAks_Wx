@@ -1,0 +1,85 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/product/product",
+            "style" : {}
+        }
+		,{
+            "path" : "pages/message/message",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cloud/cloud",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/machine/machine",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/contactUs/contactUs",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/productInfo/productInfo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/kefu/kefu",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor":"#A9BCF5",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "华为云",
+		"navigationBarBackgroundColor": "#EFF8FB",
+		"backgroundColor": "#FAFAFA",
+		"navigationStyle":"default"
+	},
+	"tabBar":{
+		"color": "#333333",
+		"selectedColor": "#F76E15",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index2.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/product/product",
+				"iconPath": "static/yun.png",
+				"selectedIconPath": "static/yun2.png",
+				"text": "产品"
+			},
+			{
+				"pagePath": "pages/contact/contact",
+				"iconPath": "static/fabu.png",
+				"selectedIconPath": "static/fabu2.png",
+				"text": "业务咨询"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/xiezuo.png",
+				"selectedIconPath": "static/xiezuo2.png",
+				"text": "我的"
+			}
+		]
+	}
+}
